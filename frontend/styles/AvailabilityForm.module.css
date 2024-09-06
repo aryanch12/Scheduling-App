@@ -1,0 +1,68 @@
+
+
+
+.container {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  .inputField {
+    width: 100%; 
+    padding: 12px;
+    margin-bottom: 15px; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 6px; 
+    font-size: 16px; 
+  }
+ 
+  .addBtn, .submitBtn {
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    padding: 12px 24px; 
+    margin-right: 12px; 
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  .addBtn:hover, .submitBtn:hover {
+    background-color: #0056b3; 
+    transform: scale(1.02); 
+  }
+  
+ 
+  .removeBtn {
+    background-color: #dc3545; 
+    color: #ffffff; 
+    border: none;
+    padding: 8px 16px; 
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  .removeBtn:hover {
+    background-color: #c82333; 
+    transform: scale(1.02); 
+  }
+  
+
+  .label {
+    display: block;
+    margin-bottom: 8px; 
+    font-weight: 600; 
+    color: #333333; 
+  }
+  
+ 
+  .slotContainer {
+    margin-bottom: 20px; 
+  }
+  
+  
